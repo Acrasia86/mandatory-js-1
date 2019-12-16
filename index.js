@@ -19,7 +19,7 @@ var list = document.getElementById("contact");
 list.insertBefore(contact, list.childNodes[1]); 
 
 
-
+document.getElementsByTagName("a")[2].href="#vegetables"; 
 
 
 document.getElementById("about").parentNode.insertBefore(document.getElementById("about"), document.getElementById("contact"));
